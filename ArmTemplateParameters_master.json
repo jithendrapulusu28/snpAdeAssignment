@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "jithendraDF"
+        },
+        "LS_SourceData_Gen2_accountKey": {
+            "value": ""
+        },
+        "LS_ADLS2ToSQLServer_password": {
+            "value": ""
+        },
+        "LS_SQLServer_password": {
+            "value": ""
+        },
+        "LS_ADLS_accountKey": {
+            "value": ""
+        },
+        "ls_localSqlServer_password": {
+            "value": ""
+        },
+        "ls_azureDatabricks_accessToken": {
+            "value": ""
+        },
+        "LS_SourceData_Gen2_properties_typeProperties_url": {
+            "value": "https://storagepractice02.dfs.core.windows.net/"
+        },
+        "LS_ADLS2ToSQLServer_properties_typeProperties_server": {
+            "value": "azvmdev01\\MSSQLSERVER01"
+        },
+        "LS_ADLS2ToSQLServer_properties_typeProperties_database": {
+            "value": "AdventureWorksDW2022"
+        },
+        "LS_ADLS2ToSQLServer_properties_typeProperties_userName": {
+            "value": "sa"
+        },
+        "LS_SQLServer_properties_typeProperties_server": {
+            "value": "azvmdev01\\MSSQLSERVER01"
+        },
+        "LS_SQLServer_properties_typeProperties_database": {
+            "value": "AdventureWorksDW2022"
+        },
+        "LS_SQLServer_properties_typeProperties_userName": {
+            "value": "sa"
+        },
+        "LS_ADLS_properties_typeProperties_url": {
+            "value": "https://storagepractice02.dfs.core.windows.net/"
+        },
+        "ls_localSqlServer_properties_typeProperties_server": {
+            "value": "azvmdev01\\MSSQLSERVER01"
+        },
+        "ls_localSqlServer_properties_typeProperties_database": {
+            "value": "IplData"
+        },
+        "ls_localSqlServer_properties_typeProperties_userName": {
+            "value": "sa"
+        },
+        "ls_azureDatabricks_properties_typeProperties_existingClusterId": {
+            "value": "1027-145734-5pa31s43"
+        },
+        "containerUri": {
+            "value": ""
+        },
+        "containerSasToken": {
+            "value": ""
+        }
+    }
+}
